@@ -1,179 +1,179 @@
 ﻿  gram.tab.cpp
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\gram.tab.cpp(1266,5): warning C4065: switch 语句包含“default”但是未包含“case”标签
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\gram.tab.cpp(1266,5): warning C4065: switch 语句包含“default”但是未包含“case”标签
   initSQL.cpp
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(9,44): error C2664: “BOOL CreateDirectoryW(LPCWSTR,LPSECURITY_ATTRIBUTES)”: 无法将参数 1 从“const char [11]”转换为“LPCWSTR”
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(9,25): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(9,44): error C2664: “BOOL CreateDirectoryW(LPCWSTR,LPSECURITY_ATTRIBUTES)”: 无法将参数 1 从“const char [11]”转换为“LPCWSTR”
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(9,25): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\fileapi.h(61,1): message : 参见“CreateDirectoryW”的声明
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(39,29): error C2665: “open”: 2 个重载中没有一个可以转换所有参数类型
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(39,29): error C2665: “open”: 2 个重载中没有一个可以转换所有参数类型
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_io.h(518,30): message : 可能是“int open(const char *,int,...)”
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\StorageEngine.h(131,6): message : 或    “bool open(storageNode *,char *,long)”
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(39,29): message : 尝试匹配参数列表“(storageNode *, const char [13], int)”时
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(42,46): error C2664: “void setTableNode(tableNode *,char *,int,int)”: 无法将参数 2 从“const char [11]”转换为“char *”
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(42,26): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.h(205,6): message : 参见“setTableNode”的声明
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(44,49): error C2664: “void setTableNode(tableNode *,char *,int,int)”: 无法将参数 2 从“const char [14]”转换为“char *”
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(44,26): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.h(205,6): message : 参见“setTableNode”的声明
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(46,47): error C2664: “void setTableNode(tableNode *,char *,int,int)”: 无法将参数 2 从“const char [12]”转换为“char *”
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(46,26): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.h(205,6): message : 参见“setTableNode”的声明
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(57,27): error C2665: “open”: 2 个重载中没有一个可以转换所有参数类型
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\StorageEngine.h(131,6): message : 或    “bool open(storageNode *,char *,long)”
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(39,29): message : 尝试匹配参数列表“(storageNode *, const char [13], int)”时
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(42,46): error C2664: “void setTableNode(tableNode *,char *,int,int)”: 无法将参数 2 从“const char [11]”转换为“char *”
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(42,26): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.h(205,6): message : 参见“setTableNode”的声明
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(44,49): error C2664: “void setTableNode(tableNode *,char *,int,int)”: 无法将参数 2 从“const char [14]”转换为“char *”
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(44,26): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.h(205,6): message : 参见“setTableNode”的声明
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(46,47): error C2664: “void setTableNode(tableNode *,char *,int,int)”: 无法将参数 2 从“const char [12]”转换为“char *”
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(46,26): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.h(205,6): message : 参见“setTableNode”的声明
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(57,27): error C2665: “open”: 2 个重载中没有一个可以转换所有参数类型
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_io.h(518,30): message : 可能是“int open(const char *,int,...)”
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\StorageEngine.h(131,6): message : 或    “bool open(storageNode *,char *,long)”
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(57,27): message : 尝试匹配参数列表“(storageNode *, const char [11], int)”时
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(60,57): error C2664: “void setColNode(colNode *,char *,char *,int,int,int)”: 无法将参数 2 从“const char [8]”转换为“char *”
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(60,22): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.h(213,6): message : 参见“setColNode”的声明
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(64,63): error C2664: “void setColNode(colNode *,char *,char *,int,int,int)”: 无法将参数 2 从“const char [11]”转换为“char *”
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(64,22): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.h(213,6): message : 参见“setColNode”的声明
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(66,59): error C2664: “void setColNode(colNode *,char *,char *,int,int,int)”: 无法将参数 2 从“const char [8]”转换为“char *”
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(66,22): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.h(213,6): message : 参见“setColNode”的声明
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(68,62): error C2664: “void setColNode(colNode *,char *,char *,int,int,int)”: 无法将参数 2 从“const char [11]”转换为“char *”
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(68,22): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.h(213,6): message : 参见“setColNode”的声明
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(72,59): error C2664: “void setColNode(colNode *,char *,char *,int,int,int)”: 无法将参数 2 从“const char [9]”转换为“char *”
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(72,22): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.h(213,6): message : 参见“setColNode”的声明
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(74,60): error C2664: “void setColNode(colNode *,char *,char *,int,int,int)”: 无法将参数 2 从“const char [10]”转换为“char *”
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(74,22): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.h(213,6): message : 参见“setColNode”的声明
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(76,58): error C2664: “void setColNode(colNode *,char *,char *,int,int,int)”: 无法将参数 2 从“const char [9]”转换为“char *”
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(76,22): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.h(213,6): message : 参见“setColNode”的声明
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(78,62): error C2664: “void setColNode(colNode *,char *,char *,int,int,int)”: 无法将参数 2 从“const char [13]”转换为“char *”
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(78,22): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.h(213,6): message : 参见“setColNode”的声明
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(80,55): error C2664: “void setColNode(colNode *,char *,char *,int,int,int)”: 无法将参数 2 从“const char [6]”转换为“char *”
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(80,22): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.h(213,6): message : 参见“setColNode”的声明
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(82,56): error C2664: “void setColNode(colNode *,char *,char *,int,int,int)”: 无法将参数 2 从“const char [7]”转换为“char *”
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(82,22): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.h(213,6): message : 参见“setColNode”的声明
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(126,36): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(158,23): warning C4805: “==”: 在操作中将类型“char”与类型“bool”混合不安全
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(111,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(112,2): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(113,14): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(115,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(117,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(118,2): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(119,14): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(121,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(187,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(188,22): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(199,4): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(200,4): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\initSQL.cpp(201,14): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\StorageEngine.h(131,6): message : 或    “bool open(storageNode *,char *,long)”
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(57,27): message : 尝试匹配参数列表“(storageNode *, const char [11], int)”时
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(60,57): error C2664: “void setColNode(colNode *,char *,char *,int,int,int)”: 无法将参数 2 从“const char [8]”转换为“char *”
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(60,22): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.h(213,6): message : 参见“setColNode”的声明
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(64,63): error C2664: “void setColNode(colNode *,char *,char *,int,int,int)”: 无法将参数 2 从“const char [11]”转换为“char *”
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(64,22): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.h(213,6): message : 参见“setColNode”的声明
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(66,59): error C2664: “void setColNode(colNode *,char *,char *,int,int,int)”: 无法将参数 2 从“const char [8]”转换为“char *”
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(66,22): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.h(213,6): message : 参见“setColNode”的声明
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(68,62): error C2664: “void setColNode(colNode *,char *,char *,int,int,int)”: 无法将参数 2 从“const char [11]”转换为“char *”
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(68,22): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.h(213,6): message : 参见“setColNode”的声明
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(72,59): error C2664: “void setColNode(colNode *,char *,char *,int,int,int)”: 无法将参数 2 从“const char [9]”转换为“char *”
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(72,22): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.h(213,6): message : 参见“setColNode”的声明
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(74,60): error C2664: “void setColNode(colNode *,char *,char *,int,int,int)”: 无法将参数 2 从“const char [10]”转换为“char *”
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(74,22): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.h(213,6): message : 参见“setColNode”的声明
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(76,58): error C2664: “void setColNode(colNode *,char *,char *,int,int,int)”: 无法将参数 2 从“const char [9]”转换为“char *”
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(76,22): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.h(213,6): message : 参见“setColNode”的声明
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(78,62): error C2664: “void setColNode(colNode *,char *,char *,int,int,int)”: 无法将参数 2 从“const char [13]”转换为“char *”
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(78,22): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.h(213,6): message : 参见“setColNode”的声明
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(80,55): error C2664: “void setColNode(colNode *,char *,char *,int,int,int)”: 无法将参数 2 从“const char [6]”转换为“char *”
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(80,22): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.h(213,6): message : 参见“setColNode”的声明
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(82,56): error C2664: “void setColNode(colNode *,char *,char *,int,int,int)”: 无法将参数 2 从“const char [7]”转换为“char *”
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(82,22): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.h(213,6): message : 参见“setColNode”的声明
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(126,36): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(158,23): warning C4805: “==”: 在操作中将类型“char”与类型“bool”混合不安全
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(111,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(112,2): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(113,14): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(115,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(117,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(118,2): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(119,14): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(121,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(187,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(188,22): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(199,4): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(200,4): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(201,14): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   MetadataManager.cpp
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.cpp(254,36): error C2664: “bool open(storageNode *,char *,long)”: 无法将参数 2 从“const char [10]”转换为“char *”
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.cpp(254,11): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\StorageEngine.h(131,6): message : 参见“open”的声明
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.cpp(278,5): error C2664: “bool open(storageNode *,char *,long)”: 无法将参数 2 从“const char [10]”转换为“char *”
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.cpp(278,16): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\StorageEngine.h(131,6): message : 参见“open”的声明
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.cpp(312,5): error C2664: “bool open(storageNode *,char *,long)”: 无法将参数 2 从“const char [10]”转换为“char *”
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.cpp(312,16): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\StorageEngine.h(131,6): message : 参见“open”的声明
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.cpp(343,5): error C2664: “bool open(storageNode *,char *,long)”: 无法将参数 2 从“const char [10]”转换为“char *”
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.cpp(343,16): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\StorageEngine.h(131,6): message : 参见“open”的声明
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.cpp(370,48): error C2664: “char *stringcat(char *,char *)”: 无法将参数 2 从“const char [14]”转换为“char *”
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.cpp(370,32): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\StorageEngine.h(70,7): message : 参见“stringcat”的声明
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.cpp(372,28): error C2440: “=”: 无法从“const char [13]”转换为“char *”
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.cpp(372,14): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.cpp(379,53): error C2664: “char *stringcat(char *,char *)”: 无法将参数 2 从“const char [14]”转换为“char *”
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.cpp(379,37): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\StorageEngine.h(70,7): message : 参见“stringcat”的声明
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.cpp(402,53): error C2664: “char *stringcat(char *,char *)”: 无法将参数 2 从“const char [14]”转换为“char *”
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.cpp(402,37): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\StorageEngine.h(70,7): message : 参见“stringcat”的声明
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.cpp(432,48): error C2664: “char *stringcat(char *,char *)”: 无法将参数 2 从“const char [14]”转换为“char *”
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.cpp(432,32): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\StorageEngine.h(70,7): message : 参见“stringcat”的声明
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.cpp(434,28): error C2440: “=”: 无法从“const char [13]”转换为“char *”
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.cpp(434,14): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.cpp(460,53): error C2664: “char *stringcat(char *,char *)”: 无法将参数 2 从“const char [14]”转换为“char *”
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.cpp(460,37): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\StorageEngine.h(70,7): message : 参见“stringcat”的声明
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.cpp(486,53): error C2664: “char *stringcat(char *,char *)”: 无法将参数 2 从“const char [14]”转换为“char *”
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.cpp(486,37): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\StorageEngine.h(70,7): message : 参见“stringcat”的声明
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.cpp(493,46): error C2664: “char *stringcat(char *,char *)”: 无法将参数 2 从“const char [12]”转换为“char *”
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.cpp(493,32): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\StorageEngine.h(70,7): message : 参见“stringcat”的声明
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.cpp(495,26): error C2440: “=”: 无法从“const char [11]”转换为“char *”
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.cpp(495,14): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.cpp(502,51): error C2664: “char *stringcat(char *,char *)”: 无法将参数 2 从“const char [12]”转换为“char *”
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.cpp(502,37): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\StorageEngine.h(70,7): message : 参见“stringcat”的声明
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.cpp(527,51): error C2664: “char *stringcat(char *,char *)”: 无法将参数 2 从“const char [12]”转换为“char *”
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.cpp(527,37): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\StorageEngine.h(70,7): message : 参见“stringcat”的声明
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.cpp(558,46): error C2664: “char *stringcat(char *,char *)”: 无法将参数 2 从“const char [12]”转换为“char *”
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.cpp(558,32): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\StorageEngine.h(70,7): message : 参见“stringcat”的声明
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.cpp(560,26): error C2440: “=”: 无法从“const char [11]”转换为“char *”
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.cpp(560,14): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.cpp(587,51): error C2664: “char *stringcat(char *,char *)”: 无法将参数 2 从“const char [12]”转换为“char *”
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\MetadataManager.cpp(587,37): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\StorageEngine.h(70,7): message : 参见“stringcat”的声明
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.cpp(254,36): error C2664: “bool open(storageNode *,char *,long)”: 无法将参数 2 从“const char [10]”转换为“char *”
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.cpp(254,11): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\StorageEngine.h(131,6): message : 参见“open”的声明
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.cpp(278,5): error C2664: “bool open(storageNode *,char *,long)”: 无法将参数 2 从“const char [10]”转换为“char *”
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.cpp(278,16): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\StorageEngine.h(131,6): message : 参见“open”的声明
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.cpp(312,5): error C2664: “bool open(storageNode *,char *,long)”: 无法将参数 2 从“const char [10]”转换为“char *”
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.cpp(312,16): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\StorageEngine.h(131,6): message : 参见“open”的声明
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.cpp(343,5): error C2664: “bool open(storageNode *,char *,long)”: 无法将参数 2 从“const char [10]”转换为“char *”
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.cpp(343,16): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\StorageEngine.h(131,6): message : 参见“open”的声明
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.cpp(370,48): error C2664: “char *stringcat(char *,char *)”: 无法将参数 2 从“const char [14]”转换为“char *”
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.cpp(370,32): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\StorageEngine.h(70,7): message : 参见“stringcat”的声明
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.cpp(372,28): error C2440: “=”: 无法从“const char [13]”转换为“char *”
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.cpp(372,14): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.cpp(379,53): error C2664: “char *stringcat(char *,char *)”: 无法将参数 2 从“const char [14]”转换为“char *”
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.cpp(379,37): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\StorageEngine.h(70,7): message : 参见“stringcat”的声明
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.cpp(402,53): error C2664: “char *stringcat(char *,char *)”: 无法将参数 2 从“const char [14]”转换为“char *”
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.cpp(402,37): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\StorageEngine.h(70,7): message : 参见“stringcat”的声明
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.cpp(432,48): error C2664: “char *stringcat(char *,char *)”: 无法将参数 2 从“const char [14]”转换为“char *”
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.cpp(432,32): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\StorageEngine.h(70,7): message : 参见“stringcat”的声明
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.cpp(434,28): error C2440: “=”: 无法从“const char [13]”转换为“char *”
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.cpp(434,14): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.cpp(460,53): error C2664: “char *stringcat(char *,char *)”: 无法将参数 2 从“const char [14]”转换为“char *”
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.cpp(460,37): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\StorageEngine.h(70,7): message : 参见“stringcat”的声明
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.cpp(486,53): error C2664: “char *stringcat(char *,char *)”: 无法将参数 2 从“const char [14]”转换为“char *”
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.cpp(486,37): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\StorageEngine.h(70,7): message : 参见“stringcat”的声明
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.cpp(493,46): error C2664: “char *stringcat(char *,char *)”: 无法将参数 2 从“const char [12]”转换为“char *”
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.cpp(493,32): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\StorageEngine.h(70,7): message : 参见“stringcat”的声明
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.cpp(495,26): error C2440: “=”: 无法从“const char [11]”转换为“char *”
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.cpp(495,14): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.cpp(502,51): error C2664: “char *stringcat(char *,char *)”: 无法将参数 2 从“const char [12]”转换为“char *”
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.cpp(502,37): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\StorageEngine.h(70,7): message : 参见“stringcat”的声明
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.cpp(527,51): error C2664: “char *stringcat(char *,char *)”: 无法将参数 2 从“const char [12]”转换为“char *”
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.cpp(527,37): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\StorageEngine.h(70,7): message : 参见“stringcat”的声明
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.cpp(558,46): error C2664: “char *stringcat(char *,char *)”: 无法将参数 2 从“const char [12]”转换为“char *”
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.cpp(558,32): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\StorageEngine.h(70,7): message : 参见“stringcat”的声明
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.cpp(560,26): error C2440: “=”: 无法从“const char [11]”转换为“char *”
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.cpp(560,14): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.cpp(587,51): error C2664: “char *stringcat(char *,char *)”: 无法将参数 2 从“const char [12]”转换为“char *”
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\MetadataManager.cpp(587,37): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\StorageEngine.h(70,7): message : 参见“stringcat”的声明
   QueryProcessor.cpp
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\QueryProcessor.cpp(15,43): error C2664: “char *stringcat(char *,char *)”: 无法将参数 1 从“const char [2]”转换为“char *”
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\QueryProcessor.cpp(15,28): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\StorageEngine.h(70,7): message : 参见“stringcat”的声明
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\QueryProcessor.cpp(15,43): error C2664: “char *stringcat(char *,char *)”: 无法将参数 1 从“const char [2]”转换为“char *”
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\QueryProcessor.cpp(15,28): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\StorageEngine.h(70,7): message : 参见“stringcat”的声明
   scan.flex.cpp
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdint.h(49,1): warning C4005: “INT8_MIN”: 宏重定义
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\scan.flex.cpp(59): message : 参见“INT8_MIN”的前一个定义
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\scan.flex.cpp(59): message : 参见“INT8_MIN”的前一个定义
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdint.h(50,1): warning C4005: “INT16_MIN”: 宏重定义
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\scan.flex.cpp(62): message : 参见“INT16_MIN”的前一个定义
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\scan.flex.cpp(62): message : 参见“INT16_MIN”的前一个定义
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdint.h(51,1): warning C4005: “INT32_MIN”: 宏重定义
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\scan.flex.cpp(65): message : 参见“INT32_MIN”的前一个定义
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\scan.flex.cpp(65): message : 参见“INT32_MIN”的前一个定义
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdint.h(53,1): warning C4005: “INT8_MAX”: 宏重定义
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\scan.flex.cpp(68): message : 参见“INT8_MAX”的前一个定义
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\scan.flex.cpp(68): message : 参见“INT8_MAX”的前一个定义
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdint.h(54,1): warning C4005: “INT16_MAX”: 宏重定义
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\scan.flex.cpp(71): message : 参见“INT16_MAX”的前一个定义
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\scan.flex.cpp(71): message : 参见“INT16_MAX”的前一个定义
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdint.h(55,1): warning C4005: “INT32_MAX”: 宏重定义
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\scan.flex.cpp(74): message : 参见“INT32_MAX”的前一个定义
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\scan.flex.cpp(74): message : 参见“INT32_MAX”的前一个定义
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdint.h(57,1): warning C4005: “UINT8_MAX”: 宏重定义
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\scan.flex.cpp(77): message : 参见“UINT8_MAX”的前一个定义
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\scan.flex.cpp(77): message : 参见“UINT8_MAX”的前一个定义
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdint.h(58,1): warning C4005: “UINT16_MAX”: 宏重定义
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\scan.flex.cpp(80): message : 参见“UINT16_MAX”的前一个定义
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\scan.flex.cpp(80): message : 参见“UINT16_MAX”的前一个定义
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdint.h(59,1): warning C4005: “UINT32_MAX”: 宏重定义
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\scan.flex.cpp(83): message : 参见“UINT32_MAX”的前一个定义
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\scan.l(86,44): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\scan.l(94,44): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\scan.flex.cpp(83): message : 参见“UINT32_MAX”的前一个定义
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\scan.l(86,44): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\scan.l(94,44): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
   StorageClass.cpp
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\StorageClass.cpp(35,52): error C2664: “BOOL CreateDirectoryW(LPCWSTR,LPSECURITY_ATTRIBUTES)”: 无法将参数 1 从“const _Elem *”转换为“LPCWSTR”
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\StorageClass.cpp(35,52): error C2664: “BOOL CreateDirectoryW(LPCWSTR,LPSECURITY_ATTRIBUTES)”: 无法将参数 1 从“const _Elem *”转换为“LPCWSTR”
           with
           [
               _Elem=char
           ]
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\StorageClass.cpp(35,44): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\StorageClass.cpp(35,44): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\fileapi.h(61,1): message : 参见“CreateDirectoryW”的声明
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\StorageClass.cpp(42,46): error C2664: “BOOL RemoveDirectoryW(LPCWSTR)”: 无法将参数 1 从“const _Elem *”转换为“LPCWSTR”
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\StorageClass.cpp(42,46): error C2664: “BOOL RemoveDirectoryW(LPCWSTR)”: 无法将参数 1 从“const _Elem *”转换为“LPCWSTR”
           with
           [
               _Elem=char
           ]
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\StorageClass.cpp(42,44): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\StorageClass.cpp(42,44): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\fileapi.h(1058,1): message : 参见“RemoveDirectoryW”的声明
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\StorageClass.cpp(78,23): warning C4805: “==”: 在操作中将类型“char”与类型“bool”混合不安全
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\StorageClass.cpp(122,10): warning C4244: “初始化”: 从“std::streamoff”转换到“int”，可能丢失数据
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\StorageClass.cpp(131,22): warning C4244: “=”: 从“std::streamoff”转换到“int”，可能丢失数据
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\StorageClass.cpp(78,23): warning C4805: “==”: 在操作中将类型“char”与类型“bool”混合不安全
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\StorageClass.cpp(122,10): warning C4244: “初始化”: 从“std::streamoff”转换到“int”，可能丢失数据
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\StorageClass.cpp(131,22): warning C4244: “=”: 从“std::streamoff”转换到“int”，可能丢失数据
   StorageEngine.cpp
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\StorageEngine.cpp(13,45): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\StorageEngine.cpp(44,42): error C2664: “BOOL CreateDirectoryW(LPCWSTR,LPSECURITY_ATTRIBUTES)”: 无法将参数 1 从“char *”转换为“LPCWSTR”
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\StorageEngine.cpp(44,28): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\StorageEngine.cpp(13,45): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\StorageEngine.cpp(44,42): error C2664: “BOOL CreateDirectoryW(LPCWSTR,LPSECURITY_ATTRIBUTES)”: 无法将参数 1 从“char *”转换为“LPCWSTR”
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\StorageEngine.cpp(44,28): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\fileapi.h(61,1): message : 参见“CreateDirectoryW”的声明
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\StorageEngine.cpp(55,36): error C2664: “BOOL RemoveDirectoryW(LPCWSTR)”: 无法将参数 1 从“char *”转换为“LPCWSTR”
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\StorageEngine.cpp(55,28): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\StorageEngine.cpp(55,36): error C2664: “BOOL RemoveDirectoryW(LPCWSTR)”: 无法将参数 1 从“char *”转换为“LPCWSTR”
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\StorageEngine.cpp(55,28): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\fileapi.h(1058,1): message : 参见“RemoveDirectoryW”的声明
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\StorageEngine.cpp(115,74): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\StorageEngine.cpp(120,27): warning C4805: “==”: 在操作中将类型“char”与类型“bool”混合不安全
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\StorageEngine.cpp(133,47): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\StorageEngine.cpp(147,74): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-C:\Users\Administrator\Desktop\XDSQL_for_select\XDSQL_for_select\StorageEngine.cpp(163,47): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\StorageEngine.cpp(115,74): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\StorageEngine.cpp(120,27): warning C4805: “==”: 在操作中将类型“char”与类型“bool”混合不安全
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\StorageEngine.cpp(133,47): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\StorageEngine.cpp(147,74): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\StorageEngine.cpp(163,47): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
   正在生成代码...

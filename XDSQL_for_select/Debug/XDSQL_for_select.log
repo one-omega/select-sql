@@ -1,1 +1,33 @@
-﻿  XDSQL_for_select.vcxproj -> C:\Users\Administrator\Desktop\XDSQL_for_select\Debug\XDSQL_for_select.exe
+﻿  gram.tab.cpp
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\gram.tab.cpp(1266,5): warning C4065: switch 语句包含“default”但是未包含“case”标签
+  initSQL.cpp
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\initSQL.cpp(158,23): warning C4805: “==”: 在操作中将类型“char”与类型“bool”混合不安全
+  MetadataManager.cpp
+  QueryProcessor.cpp
+  scan.flex.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdint.h(49,1): warning C4005: “INT8_MIN”: 宏重定义
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\scan.flex.cpp(59): message : 参见“INT8_MIN”的前一个定义
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdint.h(50,1): warning C4005: “INT16_MIN”: 宏重定义
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\scan.flex.cpp(62): message : 参见“INT16_MIN”的前一个定义
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdint.h(51,1): warning C4005: “INT32_MIN”: 宏重定义
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\scan.flex.cpp(65): message : 参见“INT32_MIN”的前一个定义
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdint.h(53,1): warning C4005: “INT8_MAX”: 宏重定义
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\scan.flex.cpp(68): message : 参见“INT8_MAX”的前一个定义
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdint.h(54,1): warning C4005: “INT16_MAX”: 宏重定义
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\scan.flex.cpp(71): message : 参见“INT16_MAX”的前一个定义
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdint.h(55,1): warning C4005: “INT32_MAX”: 宏重定义
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\scan.flex.cpp(74): message : 参见“INT32_MAX”的前一个定义
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdint.h(57,1): warning C4005: “UINT8_MAX”: 宏重定义
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\scan.flex.cpp(77): message : 参见“UINT8_MAX”的前一个定义
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdint.h(58,1): warning C4005: “UINT16_MAX”: 宏重定义
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\scan.flex.cpp(80): message : 参见“UINT16_MAX”的前一个定义
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdint.h(59,1): warning C4005: “UINT32_MAX”: 宏重定义
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\scan.flex.cpp(83): message : 参见“UINT32_MAX”的前一个定义
+  StorageClass.cpp
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\StorageClass.cpp(78,23): warning C4805: “==”: 在操作中将类型“char”与类型“bool”混合不安全
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\StorageClass.cpp(122,10): warning C4244: “初始化”: 从“std::streamoff”转换到“int”，可能丢失数据
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\StorageClass.cpp(131,22): warning C4244: “=”: 从“std::streamoff”转换到“int”，可能丢失数据
+  StorageEngine.cpp
+C:\Users\Administrator\Desktop\select-sql\XDSQL_for_select\StorageEngine.cpp(120,27): warning C4805: “==”: 在操作中将类型“char”与类型“bool”混合不安全
+  正在生成代码...
+  XDSQL_for_select.vcxproj -> C:\Users\Administrator\Desktop\select-sql\Debug\XDSQL_for_select.exe
